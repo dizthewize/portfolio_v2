@@ -47,7 +47,7 @@ function About() {
     </div>
         <div className="section2">
             <div className="left r">
-                <h1 className="white">LET'S START A<br/>PROJECT</h1>
+                <h1>LET'S START A<br/>PROJECT</h1>
                 <div className="rec-large-2"></div>
             </div>
             <Quote />

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
 
-  @include breakpoint-custom($screen-xs-max) {
+  @include breakpoint-custom($screen-md-max) {
     margin-top: 250px;
     flex-direction: row;
   }

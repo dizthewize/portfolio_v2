@@ -69,10 +69,6 @@ a {
   }
 }
 
-.white {
-  color: white;
-}
-
 .r {
   text-align: left;
   @include breakpoint-custom($screen-md-max) {
