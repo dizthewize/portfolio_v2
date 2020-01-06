@@ -22,7 +22,7 @@ function Projects() {
     <div className='project-container'>
       <div className="project-grid">
         {trail.map((animation, index) => {
-          const { url, name, mobile, imagePath, id} = projects[index];
+          const { url, name, mobile, imagePath, id, appLink } = projects[index];
           return (
             <animated.div style={animation} key={id}>
             <Project
@@ -30,6 +30,7 @@ function Projects() {
               name={name}
               mobile={mobile}
               imagePath={imagePath}
+              appLink={appLink}
             />
           </animated.div>
           )

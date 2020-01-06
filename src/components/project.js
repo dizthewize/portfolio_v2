@@ -12,7 +12,8 @@ function Project({
   url = "#",
   name = "hello",
   imagePath = 'nais.png',
-  mobile
+  mobile,
+  appLink
 }) {
   const [hover, changeHover] = useState(false);
 
@@ -35,7 +36,7 @@ function Project({
               rel="noopener noreferrer"
             >Visit Site</a>
             {mobile && <a 
-              href="https://apps.apple.com/us/app/endpoint/id1388458874?mt=8"
+              href={appLink}
               target='_blank' 
               rel="noopener noreferrer"
               className='project-link'
