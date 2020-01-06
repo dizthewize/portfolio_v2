@@ -1,0 +1,73 @@
+[
+    {
+      "id":1, 
+      "name":"Ubisoft",
+      "imagePath": "ubisoft.png",
+      "url":"https://www.ubisoft.com/en-us/",
+      "description": "Provided development services to Ubisoft and helped build their homescreen and current game catalogue search. With the largest in-house game development staff in the world, Ubisoft gathers more than 14,000 team members in more than 40 studios around the world. Ubisoft attracts the best and brightest from all continents with talent, creativity & innovation at its core."
+    },
+    {
+      "id":2,
+      "name":"Makena",
+      "imagePath": "makena.png",
+      "url":"https://investments.makenacap.com",
+      "description": "Provided development services to Makena in building their client portal. Makena Capital Management, LLC ('Makena'​) is an investment firm that manages multi‐asset class and single‐asset class portfolios on behalf of our clients with the goal of long‐term capital preservation and appreciation."
+    },
+    {
+      "id":3,
+      "name":"Endpoint Closing",
+      "imagePath": "endpointclosing.png",
+      "url":"https://endpointclosing.com/",
+      "description": "H",
+      "mobile": true
+    },
+    {
+      "id":4,
+      "name":"Digital InnerPrize",
+      "imagePath": "digital_innerprize.png",
+      "url":"https://digitalinnerprize.tech/",
+      "description": "H"
+    },
+    {
+      "id":5,
+      "name":"Wintell",
+      "imagePath": "winstonretail.png",
+      "url":"http://client-stage.wrs.presencepg.com/login",
+      "description": "Provided development services to Winston Retail to migrate an outdated legacy .NET system to NodeJS in AWS. The product leveraged Docker, Redis, CloudFront and several cutting edge tools and services."
+    },
+    {
+      "id":6, 
+      "name":"Allstate DS",
+      "imagePath": "allstateds.png",
+      "url":"https://www.allstate.com/landingpages/hiddenworldofdata.htm",
+      "description": "This site is currently still in planning and development. This is a prototype set up as an interactive exploration into bridging the gap between security experts and real world internet users."
+    },
+    {
+      "id":7, 
+      "name":"Zendesk-Discord-Bot", 
+      "imagePath": "zendesk_discord_bot.png",
+      "url":"http://zen.dev.presencepg.com/",
+      "description": "The Zendesk Discord integrates and unites your zendesk support tickets by displaying critical onto the Discord platform."
+    },
+    {
+      "id":8, 
+      "imagePath": "nais.png",
+      "name":"(NAIS) National Association Independent Schools", 
+      "url":"http://client.ndev.presencepg.com/",
+      "description": "The National Association of Independent Schools (NAIS) is a nonprofit membership association that provides services to more than 1,800 schools and associations of schools in the United States and abroad, including more than 1,500 independent private K-12 schools in the U.S. Learn more below."
+    },
+    {
+      "id":9, 
+      "name":"Ubisoft-Storybook",
+      "imagePath": "ubisoft_storybook.png",
+      "url":"https://presencepg.github.io/ubisoft-storybook/?selectedKind=Button&selectedStory=with%20text&full=0&addons=1&stories=1&panelRight=0&addonPanel=storybook%2Factions%2Factions-panel",
+      "description": "Storybook for components used in Ubisoft current project and website"
+    },
+    {
+      "id":10,
+      "name":"BigCommerce Zendesk App",
+      "imagePath": "bigcommerce_zendesk.png",
+      "url":"https://www.zendesk.com/",
+      "description": "The Zendesk Chat for BigCommerce integration unites your business by displaying critical BigCommerce data alongside Zendesk Chat visitor information."
+    }
+]

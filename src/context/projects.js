@@ -1,4 +1,5 @@
-import React, { useState, useEffect, createContext } from 'react'
+import React, { useState, createContext } from 'react'
+import projectData from '../data/projects.json'
 
 
 const defaultState = {
@@ -8,20 +9,7 @@ const defaultState = {
 export const ProjectsContext = createContext(defaultState);
 
 export function ProjectsProvider({ children }) { 
-  const [projects, setProjects] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const res = await fetch(
-      './data/projects.json'
-      );
-      const data = await res.json();
-
-      setProjects(data);
-    }
-
-    fetchData();
-  }, []);
+  const [projects] = useState(projectData);
 
 
   return (

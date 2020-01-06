@@ -22,7 +22,7 @@ function Project({
       onMouseEnter={() => changeHover(!hover)}
       onMouseLeave={() => changeHover(!hover)}
       >
-        <img src={`./assets/${imagePath}`} alt={`project-${name}`}/>
+        <img src={`../../${imagePath}`} alt={`project-${name}`}/>
         {hover && (
           <>
           <div className="overlay"></div>
