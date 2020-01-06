@@ -1,0 +1,77 @@
+nav {
+  margin-top: 20px;
+  padding: 0 2%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    font-weight: 500;
+    color: $mainBlack;
+  }
+
+  @include breakpoint-custom($screen-sm-max) {
+    position: fixed;
+    top: 50px;
+    left: 5%;
+    line-height: 50px;
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.nav-right {
+  position: relative;
+  right: initial;
+  top: initial;
+
+
+  .browser-nav {
+    display: none;
+
+    @include breakpoint-custom($screen-sm-max) {
+      display: block;
+    }
+  }
+
+  .mobile-nav {
+    display: block;
+
+    @include breakpoint-custom($screen-sm-max) {
+      display: none;
+    }
+  }
+
+  a {
+    cursor: pointer;
+    img {
+      vertical-align: text-bottom;
+    }
+
+    &:first-child {
+      color: $mainBlue;
+      margin-right: 12px;
+
+      @include breakpoint-custom($screen-sm-max) {
+        margin-right: 60px;
+      }
+    }
+  }
+
+  @include breakpoint-custom($screen-sm-max) {
+    display: inline;
+    position: fixed;
+    right: 5%;
+    top: 50px;
+  }
+}
+
+.rec {
+  background-color: $mainBlue;
+  display: inline-block;
+  width: 7px;
+  height: 14px;
+  margin-right: 3px;
+}

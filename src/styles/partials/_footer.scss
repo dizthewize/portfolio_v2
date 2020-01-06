@@ -1,0 +1,46 @@
+$fontWeight: 500;
+
+footer {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  p {
+    font-weight: $fontWeight;
+  }
+
+  @include breakpoint-custom($screen-sm-max) {
+    position: fixed;
+    bottom: 50px;
+    padding: 0 5%;
+    text-align: initial;
+    display: flex;
+    justify-content: space-between;
+
+    &.work {
+      position: relative;
+      bottom: 0;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  a {
+    margin: 0px 0px 12px;
+    font-weight: $fontWeight;
+
+    @include breakpoint-custom($screen-sm-max) {
+      margin-right: 60px;
+    }
+  }
+
+  @include breakpoint-custom($screen-sm-max) {
+    flex-direction: row;
+
+    &.work {
+      position: relative;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+@import './vars';
+@import './mixins/mixins';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  vertical-align: baseline;
+  font-size: 100%;
+  box-sizing: inherit;
+
+  &::before,
+  &::after {
+    box-sizing: inherit;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: $fontFamily;
+  font-size: 17px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  color: $mainBlack;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: $mainBlack;
+}
+
+p {
+  font-size: 17px;
+  color: $mainGray;
+}
+
+a {
+  font-size: 17px;
+  color: $mainGray;
+  text-decoration: none;
+}
+
+.wrapper-content {
+  margin: 0 auto;
+  width: 100%;
+  @include breakpoint-custom($screen-md-max) {
+    width: 70%;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.r {
+  text-align: left;
+  @include breakpoint-custom($screen-md-max) {
+    text-align: right;
+    margin-bottom: 530px;
+    margin-right: 300px;
+  }
+}
+
+.l {
+  padding: 0;
+  @include breakpoint-custom($screen-md-max) {
+    padding-left: 200px;
+  }
+}
+
+@import './partials/nav';
+@import './partials/footer';
+@import './main';
+@import './projects';
