@@ -43,7 +43,7 @@ function Nav() {
             WORK
           </MenuItem>
         </Link>
-        <a onClick={onClick}>CONTACT ME</a>
+        <a onClick={onClick} style={{ cursor: 'pointer' }}>CONTACT ME</a>
       </Menu>
       </div>
     </nav>
