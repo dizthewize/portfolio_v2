@@ -17,7 +17,7 @@ function About() {
     <div className="left">
         <div className="line"></div>
         <h1>EXPERIENCED FULL STACK<br/>ENGINEER</h1>
-        <p>For close to four years, I have been working in software engineering. I specialize in consumer-facing applications and enjoy focusing my career on building maintainable, scalable systems in which the UI communicates with the data model. I have knowledge in many development technologies, my wide ranged knowledge and skill set is focused on JavaScript development including the highly popular react and react native library. My knowledge and expertise spans across various libraries and technologies.</p>
+        <p>For close to four years, I have been working in software engineering. I specialize in consumer-facing applications and enjoy focusing my career on building maintainable, scalable systems in which the UI communicates with the data model. I have knowledge in many development technologies, my wide ranged knowledge and skill set is focused on full stack development including highly popular libraries such as react and react native. My knowledge and expertise spans across various libraries and technologies.</p>
         <div className="rec-large"></div>
     </div>
     <div className="right">
