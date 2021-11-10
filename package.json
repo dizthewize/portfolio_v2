@@ -1,31 +1,31 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "portfolio-v2",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple portfolio describing ",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Martez Howard <killmonger.successor@gmail.com>",
   "dependencies": {
-    "classnames": "^2.2.6",
-    "gatsby": "^2.18.12",
-    "gatsby-image": "^2.2.37",
-    "gatsby-plugin-manifest": "^2.2.31",
-    "gatsby-plugin-netlify": "^2.1.30",
-    "gatsby-plugin-offline": "^3.0.27",
-    "gatsby-plugin-react-helmet": "^3.1.16",
-    "gatsby-plugin-sass": "^2.1.26",
-    "gatsby-plugin-sharp": "^2.3.5",
-    "gatsby-source-filesystem": "^2.1.40",
-    "gatsby-transformer-sharp": "^2.3.7",
-    "node-sass": "^4.13.0",
+    "classnames": "^2.3.1",
+    "gatsby": "^4.1.2",
+    "gatsby-image": "^3.11.0",
+    "gatsby-plugin-manifest": "^4.1.1",
+    "gatsby-plugin-netlify": "^3.14.0",
+    "gatsby-plugin-offline": "^5.1.1",
+    "gatsby-plugin-react-helmet": "^5.1.0",
+    "gatsby-plugin-sass": "^5.1.1",
+    "gatsby-plugin-sharp": "^4.1.1",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "node-sass": "^6.0.1",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-spring": "^8.0.27",
-    "react-waypoint": "^9.0.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-spring": "^9.3.0",
+    "react-waypoint": "^10.1.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.4.1"
   },
   "keywords": [
     "gatsby"

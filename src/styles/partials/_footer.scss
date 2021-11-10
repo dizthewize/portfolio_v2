@@ -10,17 +10,10 @@ footer {
   }
 
   @include breakpoint-custom($screen-sm-max) {
-    position: fixed;
-    bottom: 50px;
-    padding: 0 5%;
+    padding: 2.5% 5%;
     text-align: initial;
     display: flex;
     justify-content: space-between;
-
-    &.work {
-      position: relative;
-      bottom: 0;
-    }
   }
 }
 
